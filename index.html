@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ProntoSite | Site profissional para sua empresa de limpeza em 48h</title>
+<meta name="description" content="Site profissional em inglês para empresas de limpeza nos EUA, pronto em 48h. Veja a prévia do seu site grátis antes de pagar. $297, hospedagem de 12 meses inclusa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0e7c86;--pd:#0a5b63;--acc:#f4b942;--ink:#14212b;--mut:#5b6b78;--bg:#f6f9fb;--line:#e3eaf0;--ok:#16a34a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{background:#fff;border-bottom:1px solid var(--line)}
+.nav{height:66px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:20px;text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo i{font-style:normal;background:var(--acc);border-radius:9px;width:34px;height:34px;display:grid;place-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--p);color:#fff;font-weight:700;border:0;border-radius:12px;padding:14px 22px;text-decoration:none;font-size:16px;cursor:pointer}
+.btn:hover{background:var(--pd)}
+.btn.acc{background:var(--acc);color:var(--ink)}
+.btn.wa{background:#25d366}
+.btn.line{background:#fff;color:var(--ink);border:2px solid var(--line)}
+.hero{background:linear-gradient(135deg,#0e7c86,#073f45);color:#fff;padding:70px 0 80px}
+.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.pill{display:inline-block;background:rgba(255,255,255,.14);border-radius:999px;padding:6px 14px;font-size:14px;margin-bottom:16px}
+h1{font-size:44px;line-height:1.1;margin-bottom:16px}
+.hero p{font-size:19px;opacity:.92;margin-bottom:24px;max-width:560px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.mock{background:#fff;border-radius:16px;box-shadow:0 25px 60px rgba(0,0,0,.3);overflow:hidden;color:var(--ink)}
+.mock .bar{background:#eef2f5;padding:10px 12px;display:flex;gap:6px}
+.mock .bar span{width:10px;height:10px;border-radius:50%;background:#cfd8df}
+.mock .scr{padding:22px}
+.mock .h{height:14px;background:var(--p);border-radius:6px;width:60%;margin-bottom:10px}
+.mock .l{height:9px;background:#e3eaf0;border-radius:5px;margin-bottom:8px}
+.mock .row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:16px}
+.mock .b{height:60px;border-radius:10px;background:#f0f6f7;border:1px solid var(--line)}
+.mock .c{display:inline-block;margin-top:14px;background:var(--acc);border-radius:8px;padding:8px 14px;font-weight:700;font-size:13px}
+section{padding:68px 0}
+.k{color:var(--p);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+h2{font-size:32px;line-height:1.2;margin-bottom:12px}
+.sub{color:var(--mut);font-size:17px;max-width:660px;margin-bottom:34px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px}
+.card h3{font-size:18px;margin-bottom:6px}
+.card p{color:var(--mut);font-size:15px}
+.num{width:34px;height:34px;border-radius:50%;background:var(--acc);font-weight:800;display:grid;place-items:center;margin-bottom:12px}
+.pain{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pain ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px 28px}
+.pain li{padding-left:28px;position:relative;font-size:16px}
+.pain li:before{content:"\2715";position:absolute;left:0;color:#dc2626;font-weight:800}
+.prices{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:860px}
+.price{background:#fff;border:2px solid var(--line);border-radius:20px;padding:28px}
+.price.main{border-color:var(--p);box-shadow:0 18px 40px rgba(14,124,134,.15)}
+.price .tag{display:inline-block;background:var(--acc);border-radius:999px;font-size:13px;font-weight:700;padding:4px 12px;margin-bottom:10px}
+.price .amt{font-size:44px;font-weight:800}
+.price .amt small{font-size:16px;color:var(--mut);font-weight:600}
+.price s{color:var(--mut);font-size:18px;margin-left:8px}
+.price ul{list-style:none;margin:16px 0 22px}
+.price li{padding:6px 0 6px 28px;position:relative;font-size:15px}
+.price li:before{content:"\2713";position:absolute;left:0;color:var(--ok);font-weight:800}
+.price .btn{width:100%}
+.pay{margin-top:12px;font-size:14px;color:var(--mut)}
+.form{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;max-width:620px}
+.form label{display:block;font-weight:600;font-size:14px;margin:12px 0 4px}
+.form input{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;font:inherit;font-size:16px}
+.form .btn{width:100%;margin-top:18px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:10px;max-width:820px}
+.faq summary{font-weight:700;cursor:pointer}
+.faq p{color:var(--mut);margin-top:10px}
+footer{padding:36px 0 60px;text-align:center;color:var(--mut);font-size:14px}
+@media (max-width:860px){.hero .grid,.g3,.prices,.pain ul{grid-template-columns:1fr}h1{font-size:33px}section{padding:52px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="#"><i>&#9889;</i>ProntoSite</a>
+  <a class="btn" href="#previa">Prévia grátis</a>
+</div></header>
+
+<div class="hero"><div class="wrap grid">
+  <div>
+    <span class="pill">Para empresas de limpeza nos EUA</span>
+    <h1>Seu site profissional em inglês, pronto em 48 horas.</h1>
+    <p>A gente monta o site da sua empresa de limpeza e te manda a prévia de graça. Gostou, paga e a gente coloca no ar. Não gostou, não paga nada.</p>
+    <div class="cta">
+      <a class="btn acc" href="#previa">Quero minha prévia grátis</a>
+      <a class="btn line" href="p/demo/" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.6)">Ver um exemplo</a>
+    </div>
+  </div>
+  <div class="mock" aria-hidden="true"><div class="bar"><span></span><span></span><span></span></div>
+    <div class="scr"><div class="h"></div><div class="l"></div><div class="l" style="width:80%"></div><div class="l" style="width:65%"></div>
+    <span class="c">Get a free quote</span>
+    <div class="row"><div class="b"></div><div class="b"></div><div class="b"></div></div></div></div>
+</div></div>
+
+<section class="pain"><div class="wrap">
+  <div class="k">O problema</div>
+  <h2>Cliente americano procura no Google antes de ligar</h2>
+  <p class="sub">Sem site, você perde orçamento para empresas piores que só parecem mais profissionais.</p>
+  <ul>
+    <li>Cliente acha seu perfil no Google, procura o site e não encontra</li>
+    <li>Imobiliárias e property managers pedem site antes de contratar</li>
+    <li>Thumbtack e Angi cobram caro por cada lead</li>
+    <li>Agência quer $1.500 e um mês para entregar</li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <div class="k">Como funciona</div>
+  <h2>Três passos, sem enrolação</h2>
+  <p class="sub">Feito por quem tem empresa de limpeza na Flórida e sabe o que o cliente americano quer ver.</p>
+  <div class="g3">
+    <div class="card"><div class="num">1</div><h3>Prévia grátis</h3><p>Você manda o nome da empresa, cidade e telefone. Em até 24h você recebe o link do seu site pronto.</p></div>
+    <div class="card"><div class="num">2</div><h3>Ajustes</h3><p>Pede o que quiser mudar: cores, serviços, fotos, texto. Até 2 rodadas de ajustes inclusas.</p></div>
+    <div class="card"><div class="num">3</div><h3>No ar em 48h</h3><p>Aprovou, paga e a gente publica no seu domínio, com formulário de orçamento que chega no seu WhatsApp.</p></div>
+  </div>
+</div></section>
+
+<section id="comprar" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
+  <div class="k">Preço</div>
+  <h2>Preço de lançamento, só em dezembro</h2>
+  <p class="sub">Sem mensalidade obrigatória. Você é dono do seu domínio.</p>
+  <div class="prices">
+    <div class="price main">
+      <span class="tag">Mais escolhido</span>
+      <div class="amt">$297 <small>pagamento único</small><s>$497</s></div>
+      <ul>
+        <li>Site profissional em inglês (português ou espanhol opcional)</li>
+        <li>Funciona perfeito no celular</li>
+        <li>Botão de ligar e formulário de orçamento direto no seu WhatsApp</li>
+        <li>SEO básico para aparecer na sua cidade no Google</li>
+        <li>Hospedagem e SSL por 12 meses inclusos</li>
+        <li>Configuração no seu domínio</li>
+        <li>2 rodadas de ajustes e entrega em 48h</li>
+      </ul>
+      <a class="btn" id="pay-stripe" href="https://wa.me/18137504016?text=Ol%C3%A1%21%20Quero%20pagar%20o%20ProntoSite%20%28%24297%29%20com%20cart%C3%A3o.%20Pode%20me%20mandar%20o%20link%3F">Pagar $297 com cartão</a>
+      <p class="pay">Ou pague com Zelle para (813) 750-4016 e mande o comprovante pelo WhatsApp.</p>
+    </div>
+    <div class="price">
+      <span class="tag" style="background:#e3eaf0">Opcional</span>
+      <div class="amt">$39 <small>/ mês</small></div>
+      <ul>
+        <li>Alterações no site sempre que precisar</li>
+        <li>Fotos dos seus trabalhos atualizadas</li>
+        <li>Ajuda com o perfil do Google (Google Business)</li>
+        <li>Relatório mensal de visitas</li>
+        <li>Cancele quando quiser</li>
+      </ul>
+      <a class="btn line" href="#previa">Falar sobre o plano mensal</a>
+    </div>
+  </div>
+</div></section>
+
+<section id="previa"><div class="wrap">
+  <div class="k">Prévia grátis</div>
+  <h2>Veja seu site pronto antes de pagar</h2>
+  <p class="sub">Preencha e mande pelo WhatsApp. Respondemos em português.</p>
+  <form class="form" onsubmit="return pedir(event)">
+    <label for="n">Nome da empresa</label><input id="n" required placeholder="Ex.: Brilho Cleaning Services">
+    <label for="c">Cidade e estado</label><input id="c" required placeholder="Ex.: Orlando, FL">
+    <label for="t">Telefone / WhatsApp da empresa</label><input id="t" required placeholder="(407) 555-0100">
+    <label for="s">Tem domínio? (opcional)</label><input id="s" placeholder="Ex.: brilhocleaning.com">
+    <button class="btn wa" type="submit">Pedir minha prévia no WhatsApp</button>
+  </form>
+</div></section>
+
+<section class="faq"><div class="wrap">
+  <div class="k">Perguntas</div>
+  <h2>Dúvidas comuns</h2>
+  <details><summary>Preciso pagar alguma coisa para ver a prévia?</summary><p>Não. A prévia é grátis e sem compromisso. Você só paga se quiser colocar o site no ar.</p></details>
+  <details><summary>E o domínio (.com)?</summary><p>Se você já tem, a gente configura. Se não tem, te ajudamos a registrar no seu nome (custa em média $12 por ano, pago direto ao registrador). O domínio é seu.</p></details>
+  <details><summary>Depois de 12 meses, quanto custa a hospedagem?</summary><p>$79 por ano, ou já incluso se você estiver no plano mensal de $39.</p></details>
+  <details><summary>O site fica em inglês?</summary><p>Sim, escrito para o cliente americano. Se quiser, adicionamos uma versão em português ou espanhol.</p></details>
+  <details><summary>Quem está por trás do ProntoSite?</summary><p>O ProntoSite é um serviço da M2 Services LLC, empresa de limpeza e serviços na Flórida. A gente usa no dia a dia o que vende para você.</p></details>
+</div></section>
+
+<footer>ProntoSite &middot; um serviço da M2 Services LLC &middot; Florida, USA</footer>
+<script>
+function pedir(e){e.preventDefault();
+var m="Olá! Quero minha prévia grátis do ProntoSite.\nEmpresa: "+document.getElementById('n').value+"\nCidade: "+document.getElementById('c').value+"\nTelefone: "+document.getElementById('t').value+"\nDomínio: "+(document.getElementById('s').value||"não tenho");
+window.open("https://wa.me/18137504016?text="+encodeURIComponent(m),"_blank");return false;}
+</script>
+</body>
+</html>
