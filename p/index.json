@@ -1,0 +1,402 @@
+{
+ "brazilian-cleaning-orlando": {
+  "name": "Brazilian cleaning",
+  "phone": "+1 407-468-0501",
+  "city": "Orlando",
+  "state": "FL",
+  "reviews": "3",
+  "looks_brazilian": "yes"
+ },
+ "bright-cleaning-services-pompano-beach": {
+  "name": "Bright Cleaning Services",
+  "phone": "+1 754-342-2010",
+  "city": "Pompano Beach",
+  "state": "FL",
+  "reviews": "106",
+  "looks_brazilian": "no"
+ },
+ "jm-diamond-cleaning-pompano-beach": {
+  "name": "JM Diamond Cleaning",
+  "phone": "+1 774-778-4391",
+  "city": "Pompano Beach",
+  "state": "FL",
+  "reviews": "10",
+  "looks_brazilian": "no"
+ },
+ "brazilian-touch-cleaning-everett": {
+  "name": "Brazilian Touch Cleaning",
+  "phone": "+1 857-346-9126",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "21",
+  "looks_brazilian": "yes"
+ },
+ "yes-brazil-framingham": {
+  "name": "Yes Brazil",
+  "phone": "+1 508-740-1520",
+  "city": "Framingham",
+  "state": "MA",
+  "reviews": "2",
+  "looks_brazilian": "yes"
+ },
+ "brazilian-house-cleaning-llc-everett": {
+  "name": "Brazilian House Cleaning LLC",
+  "phone": "+1 978-918-6232",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "12",
+  "looks_brazilian": "yes"
+ },
+ "dream-cleaning-house-cleaning-framingham": {
+  "name": "Dream Cleaning-House Cleaning",
+  "phone": "+1 508-596-4798",
+  "city": "Framingham",
+  "state": "MA",
+  "reviews": "19",
+  "looks_brazilian": "no"
+ },
+ "imperial-house-cleaning-marlborough": {
+  "name": "Imperial House Cleaning",
+  "phone": "+1 978-333-9180",
+  "city": "Marlborough",
+  "state": "MA",
+  "reviews": "20",
+  "looks_brazilian": "no"
+ },
+ "ck-cleaning-marlborough": {
+  "name": "CK Cleaning",
+  "phone": "+1 774-414-8863",
+  "city": "Marlborough",
+  "state": "MA",
+  "reviews": "2",
+  "looks_brazilian": "no"
+ },
+ "venice-maid-cleaning-services-marlborough": {
+  "name": "Venice Maid Cleaning Services",
+  "phone": "+1 978-310-9424",
+  "city": "Marlborough",
+  "state": "MA",
+  "reviews": "10",
+  "looks_brazilian": "no"
+ },
+ "d-g-cleaning-services-everett": {
+  "name": "D&G Cleaning services",
+  "phone": "+1 857-204-3559",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "2",
+  "looks_brazilian": "no"
+ },
+ "amarals-cleaning-everett": {
+  "name": "Amaral’S cleaning",
+  "phone": "+1 781-873-5956",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "6",
+  "looks_brazilian": "yes"
+ },
+ "nayaras-cleaning-everett": {
+  "name": "Nayaras' Cleaning",
+  "phone": "+1 857-326-2464",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "41",
+  "looks_brazilian": "yes"
+ },
+ "pura-feels-cleaning-orlando": {
+  "name": "Pura Feels Cleaning",
+  "phone": "+1 717-644-7382",
+  "city": "Orlando",
+  "state": "FL",
+  "reviews": "16",
+  "looks_brazilian": "yes"
+ },
+ "aks-family-services-llc-everett": {
+  "name": "AKS FAMILY SERVICES LLC",
+  "phone": "+1 617-230-2362",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "46",
+  "looks_brazilian": "no"
+ },
+ "prime-clean-service-everett": {
+  "name": "Prime clean service",
+  "phone": "+1 857-247-9916",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "0",
+  "looks_brazilian": "no"
+ },
+ "js-cleaning-everett": {
+  "name": "JS Cleaning",
+  "phone": "+1 857-888-1202",
+  "city": "Everett",
+  "state": "MA",
+  "reviews": "0",
+  "looks_brazilian": "no"
+ },
+ "advance-general-cleaning-services-somerville": {
+  "name": "Advance General Cleaning Services",
+  "phone": "+1 857-995-3977",
+  "city": "Somerville",
+  "state": "MA",
+  "reviews": "12",
+  "looks_brazilian": "no"
+ },
+ "boston-cleaning-services-inc-somerville": {
+  "name": "Boston Cleaning Services INC",
+  "phone": "+1 774-297-4887",
+  "city": "Somerville",
+  "state": "MA",
+  "reviews": "19",
+  "looks_brazilian": "no"
+ },
+ "a-e-cleaning-residential-and-commercial-inc-hyan": {
+  "name": "A&E Cleaning Residential And Commercial Inc",
+  "phone": "+1 508-280-0626",
+  "city": "Hyannis",
+  "state": "MA",
+  "reviews": "29",
+  "looks_brazilian": "no"
+ },
+ "prs-cleaning-services-hyannis": {
+  "name": "PRS Cleaning Services",
+  "phone": "+1 774-245-3050",
+  "city": "Hyannis",
+  "state": "MA",
+  "reviews": "13",
+  "looks_brazilian": "no"
+ },
+ "bosslady-cleaning-services-hyannis": {
+  "name": "BossLady cleaning Services",
+  "phone": "+1 508-332-2014",
+  "city": "Hyannis",
+  "state": "MA",
+  "reviews": "3",
+  "looks_brazilian": "no"
+ },
+ "ashleys-cleaning-services-of-cape-cod-hyannis": {
+  "name": "Ashleys Cleaning Services of Cape Cod",
+  "phone": "+1 508-762-2974",
+  "city": "Hyannis",
+  "state": "MA",
+  "reviews": "6",
+  "looks_brazilian": "no"
+ },
+ "cleaning-solutions-of-ct-danbury": {
+  "name": "Cleaning Solutions of CT",
+  "phone": "+1 203-417-1191",
+  "city": "Danbury",
+  "state": "CT",
+  "reviews": "23",
+  "looks_brazilian": "no"
+ },
+ "ana-perfect-cleaning-bridgeport": {
+  "name": "Ana Perfect Cleaning",
+  "phone": "+1 203-850-2600",
+  "city": "Bridgeport",
+  "state": "CT",
+  "reviews": "11",
+  "looks_brazilian": "no"
+ },
+ "bright-clean-house-llc-bridgeport": {
+  "name": "Bright Clean House LLC",
+  "phone": "+1 203-561-9434",
+  "city": "Bridgeport",
+  "state": "CT",
+  "reviews": "12",
+  "looks_brazilian": "no"
+ },
+ "ana-faustinis-cleaning-services-bridgeport": {
+  "name": "Ana Faustini’s Cleaning Services",
+  "phone": "+1 475-204-7677",
+  "city": "Bridgeport",
+  "state": "CT",
+  "reviews": "70",
+  "looks_brazilian": "no"
+ },
+ "gold-cleaning-services-llc-long-branch": {
+  "name": "Gold Cleaning Services LLC",
+  "phone": "+1 732-895-0917",
+  "city": "Long Branch",
+  "state": "NJ",
+  "reviews": "62",
+  "looks_brazilian": "no"
+ },
+ "bluemaids-cleaning-service-llc-long-branch": {
+  "name": "Bluemaids Cleaning Service LLC",
+  "phone": "+1 732-582-9557",
+  "city": "Long Branch",
+  "state": "NJ",
+  "reviews": "10",
+  "looks_brazilian": "no"
+ },
+ "td-prime-cleaning-services-long-branch": {
+  "name": "TD Prime Cleaning Services",
+  "phone": "+1 732-556-7916",
+  "city": "Long Branch",
+  "state": "NJ",
+  "reviews": "30",
+  "looks_brazilian": "no"
+ },
+ "dream-house-cleaning-long-branch": {
+  "name": "Dream House Cleaning",
+  "phone": "+1 732-440-7980",
+  "city": "Long Branch",
+  "state": "NJ",
+  "reviews": "0",
+  "looks_brazilian": "no"
+ },
+ "borges-pro-cleaning-service-newark": {
+  "name": "Borges Pro Cleaning Service",
+  "phone": "+1 862-372-2171",
+  "city": "Newark",
+  "state": "NJ",
+  "reviews": "43",
+  "looks_brazilian": "yes"
+ },
+ "real-dream-house-and-office-cleaning-services-ne": {
+  "name": "Real Dream House and Office Cleaning Services",
+  "phone": "+1 973-326-0020",
+  "city": "Newark",
+  "state": "NJ",
+  "reviews": "73",
+  "looks_brazilian": "no"
+ },
+ "bruna-cleaning-services-newark": {
+  "name": "Bruna cleaning services",
+  "phone": "+1 973-820-9269",
+  "city": "Newark",
+  "state": "NJ",
+  "reviews": "4",
+  "looks_brazilian": "yes"
+ },
+ "rosa-chicas-cleaning-services-newark": {
+  "name": "Rosa Chicas cleaning services",
+  "phone": "+1 973-391-4989",
+  "city": "Newark",
+  "state": "NJ",
+  "reviews": "4",
+  "looks_brazilian": "no"
+ },
+ "e-c-m-cleaning-newark": {
+  "name": "E. C&M CLEANING",
+  "phone": "+1 973-699-9781",
+  "city": "Newark",
+  "state": "NJ",
+  "reviews": "14",
+  "looks_brazilian": "no"
+ },
+ "brazilian-cleaning-in-boca-raton-boca-raton": {
+  "name": "Brazilian Cleaning in Boca Raton",
+  "phone": "+1 561-674-6968",
+  "city": "Boca Raton",
+  "state": "FL",
+  "reviews": "19",
+  "looks_brazilian": "yes"
+ },
+ "grazy-cleaning-services-framingham": {
+  "name": "Grazy Cleaning services",
+  "phone": "+1 774-707-4785",
+  "city": "Framingham",
+  "state": "MA",
+  "reviews": "11",
+  "looks_brazilian": "no"
+ },
+ "limas-cleaning-solutions-marietta": {
+  "name": "Limas Cleaning Solutions",
+  "phone": "+1 470-530-3552",
+  "city": "Marietta",
+  "state": "GA",
+  "reviews": "13",
+  "looks_brazilian": "no"
+ },
+ "bright-mansion-cleaning-naples": {
+  "name": "Bright Mansion Cleaning",
+  "phone": "+1 239-450-8570",
+  "city": "Naples",
+  "state": "FL",
+  "reviews": "13",
+  "looks_brazilian": "no"
+ },
+ "leondra-s-cleaning-service-s-llc-naples": {
+  "name": "Leondra's Cleaning Service's LLC",
+  "phone": "+1 239-667-3180",
+  "city": "Naples",
+  "state": "FL",
+  "reviews": "88",
+  "looks_brazilian": "no"
+ },
+ "beatriz-cleaning-services-llc-naples": {
+  "name": "Beatriz Cleaning Services LLC",
+  "phone": "+1 786-660-3034",
+  "city": "Naples",
+  "state": "FL",
+  "reviews": "11",
+  "looks_brazilian": "no"
+ },
+ "twin-pro-cleaning-services-fort-myers": {
+  "name": "Twin Pro Cleaning Services",
+  "phone": "+1 786-472-0388",
+  "city": "Fort Myers",
+  "state": "FL",
+  "reviews": "63",
+  "looks_brazilian": "no"
+ },
+ "cleaninglady-kissimmee": {
+  "name": "Cleaninglady",
+  "phone": "+1 844-827-7472",
+  "city": "Kissimmee",
+  "state": "FL",
+  "reviews": "0",
+  "looks_brazilian": "no"
+ },
+ "siri-multiservice-winter-garden": {
+  "name": "Siri multiservice",
+  "phone": "+1 786-609-1034",
+  "city": "Winter Garden",
+  "state": "FL",
+  "reviews": "36",
+  "looks_brazilian": "no"
+ },
+ "dust-shine-home-services-davenport": {
+  "name": "Dust & shine home services",
+  "phone": "+1 772-713-4759",
+  "city": "Davenport",
+  "state": "FL",
+  "reviews": "28",
+  "looks_brazilian": "no"
+ },
+ "lupe-maid-services-davenport": {
+  "name": "Lupe Maid Services",
+  "phone": "+1 863-852-4216",
+  "city": "Davenport",
+  "state": "FL",
+  "reviews": "3",
+  "looks_brazilian": "no"
+ },
+ "christinas-cleaning-services-llc-davenport": {
+  "name": "Christinas Cleaning Services LLC",
+  "phone": "+1 321-318-0061",
+  "city": "Davenport",
+  "state": "FL",
+  "reviews": "1",
+  "looks_brazilian": "no"
+ },
+ "green-solutions-cleaning-services-davenport": {
+  "name": "Green Solutions Cleaning Services",
+  "phone": "+1 407-252-4285",
+  "city": "Davenport",
+  "state": "FL",
+  "reviews": "51",
+  "looks_brazilian": "no"
+ },
+ "darrins-angels-cleaning-services-orlando": {
+  "name": "Darrins Angels Cleaning Services",
+  "phone": "+1 407-430-2234",
+  "city": "Orlando",
+  "state": "FL",
+  "reviews": "94",
+  "looks_brazilian": "no"
+ }
+}
