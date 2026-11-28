@@ -31,6 +31,12 @@ h1{font-size:44px;line-height:1.1;margin-bottom:16px}
 .mock{background:#fff;border-radius:16px;box-shadow:0 25px 60px rgba(0,0,0,.3);overflow:hidden;color:var(--ink)}
 .mock .bar{background:#eef2f5;padding:10px 12px;display:flex;gap:6px}
 .mock .bar span{width:10px;height:10px;border-radius:50%;background:#cfd8df}
+.show{position:relative;margin:0;padding-bottom:30px}
+.show .mock img{display:block;width:100%;height:auto}
+.show .phone{position:absolute;right:-10px;bottom:34px;width:28%;background:#0d1b26;border-radius:22px;padding:6px;box-shadow:0 20px 40px rgba(0,0,0,.4)}
+.show .phone img{display:block;width:100%;height:auto;border-radius:16px}
+.show figcaption{font-size:13px;opacity:.85;margin-top:12px}
+
 .mock .scr{padding:22px}
 .mock .h{height:14px;background:var(--p);border-radius:6px;width:60%;margin-bottom:10px}
 .mock .l{height:9px;background:#e3eaf0;border-radius:5px;margin-bottom:8px}
@@ -70,7 +76,7 @@ h2{font-size:32px;line-height:1.2;margin-bottom:12px}
 .faq summary{font-weight:700;cursor:pointer}
 .faq p{color:var(--mut);margin-top:10px}
 footer{padding:36px 0 60px;text-align:center;color:var(--mut);font-size:14px}
-@media (max-width:860px){.hero .grid,.g3,.prices,.pain ul{grid-template-columns:1fr}h1{font-size:33px}section{padding:52px 0}}
+@media (max-width:860px){.show .phone{right:0;width:30%}.hero .grid,.g3,.prices,.pain ul{grid-template-columns:1fr}h1{font-size:33px}section{padding:52px 0}}
 </style>
 </head>
 <body>
@@ -89,10 +95,11 @@ footer{padding:36px 0 60px;text-align:center;color:var(--mut);font-size:14px}
       <a class="btn line" href="p/demo/" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.6)">Ver um exemplo</a>
     </div>
   </div>
-  <div class="mock" aria-hidden="true"><div class="bar"><span></span><span></span><span></span></div>
-    <div class="scr"><div class="h"></div><div class="l"></div><div class="l" style="width:80%"></div><div class="l" style="width:65%"></div>
-    <span class="c">Get a free quote</span>
-    <div class="row"><div class="b"></div><div class="b"></div><div class="b"></div></div></div></div>
+  <figure class="show">
+    <div class="mock"><div class="bar"><span style="background:#ff5f57"></span><span style="background:#ffbd2e"></span><span style="background:#28c940"></span></div><img src="assets/m2-desktop.jpg" alt="Site da M2 Services no computador" width="1265" height="760"></div>
+    <div class="phone"><img src="assets/m2-celular.jpg" alt="Site da M2 Services no celular" width="485" height="940"></div>
+    <figcaption>Site real da M2 Services, a empresa por trás do ProntoSite.</figcaption>
+  </figure>
 </div></div>
 
 <section class="pain"><div class="wrap">
