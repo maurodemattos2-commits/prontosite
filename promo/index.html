@@ -51,6 +51,9 @@ h1 em{font-style:normal;color:var(--a)}
 .btn.pri{background:var(--a);color:var(--d)}
 .btn.pri:hover{background:#2bbcf0}
 .btn.wa{background:var(--g);color:#fff}
+.btn.wa:hover{background:#17893f}
+.card .btn.paid{margin-top:14px}
+.steps-wa{margin-top:22px}
 .btn.ghost{border-color:rgba(255,255,255,.5);color:#fff}
 .btn:focus-visible{outline:3px solid var(--a2);outline-offset:3px}
 /* mockup */
@@ -110,6 +113,7 @@ footer img{width:52px;height:52px}
 /* ended state */
 body.ended .live{display:none!important}
 body.ended .ended-box{display:block}
+body.ended .btns.ended-box{display:flex}
 body.ended .bar{background:#37657b;color:#fff}
 body.ended .cd b{color:var(--soft)}
 @media (max-width:860px){
@@ -152,9 +156,11 @@ body.ended .cd b{color:var(--soft)}
           <div><b data-s>--</b><small>seg</small></div>
         </div>
         <p class="cd-note live">Termina à meia-noite de 30 de novembro para 1º de dezembro, horário de Nova York e da Flórida.</p>
-        <p class="cd-note ended-box">Ainda quer um site? Fale com a M2 Services pelo (813) 750-4016.</p>
+        <p class="cd-note ended-box">Ainda quer um site? Fale com a M2 Services no WhatsApp.</p>
+        <div class="btns ended-box"><a class="btn wa" href="https://wa.me/18137504016?text=Oi%21%20Vi%20a%20p%C3%A1gina%20do%20ProntoSite%20e%20quero%20um%20site%20para%20o%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">Falar no WhatsApp</a></div>
         <div class="btns live">
           <a class="btn pri" href="https://buy.stripe.com/bJe14hdlh5TM4JG0TX6sw00" target="_blank" rel="noopener">Garantir meu site por $297</a>
+          <a class="btn wa" href="https://wa.me/18137504016?text=Oi%21%20Vi%20a%20promo%C3%A7%C3%A3o%20do%20ProntoSite%20de%20%24297%20e%20tenho%20uma%20d%C3%BAvida." target="_blank" rel="noopener">Tirar dúvida no WhatsApp</a>
         </div>
         <p class="cd-note live" style="margin-top:12px">Pagamento único e seguro pelo Stripe. Sem mensalidade obrigatória.</p>
       </div>
@@ -198,9 +204,11 @@ body.ended .cd b{color:var(--soft)}
         <p class="cd-mini">Acaba em <span data-cd-text>--</span></p>
         <a class="btn pri" href="https://buy.stripe.com/bJe14hdlh5TM4JG0TX6sw00" target="_blank" rel="noopener">Garantir meu site por $297</a>
         <p class="pay">Cartão, Apple Pay, Cash App ou parcelado pelo Stripe.<br>Prefere Zelle? Mande para (813) 750-4016 com o nome do seu negócio na mensagem.</p>
+        <a class="btn wa paid" href="https://wa.me/18137504016?text=Oi%21%20Acabei%20de%20pagar%20o%20ProntoSite.%20Seguem%20meus%20dados%3A%0ANome%20do%20neg%C3%B3cio%3A%0ACidade%3A%0AServi%C3%A7os%3A%0AMeu%20e-mail%20do%20pagamento%3A" target="_blank" rel="noopener">Já pagou? Mande seus dados no WhatsApp</a>
       </div>
       <div class="ended-box">
-        <p style="margin:0;color:var(--soft)">O preço de lançamento valeu até 30 de novembro às 23:59. Para saber as condições de agora, fale com a M2 Services pelo (813) 750-4016.</p>
+        <p style="margin:0;color:var(--soft)">O preço de lançamento valeu até 30 de novembro às 23:59. Para saber as condições de agora, fale com a M2 Services no WhatsApp.</p>
+        <a class="btn wa paid" href="https://wa.me/18137504016?text=Oi%21%20Vi%20a%20p%C3%A1gina%20do%20ProntoSite%20e%20quero%20um%20site%20para%20o%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
     </div>
     <div class="after">
@@ -220,9 +228,10 @@ body.ended .cd b{color:var(--soft)}
     <h2>Três passos até o site no ar</h2>
     <div class="steps">
       <div class="step"><div class="n">1</div><h3>Você garante o preço</h3><p>Pague pelo botão e receba a confirmação no seu e-mail. O preço de $297 fica garantido.</p></div>
-      <div class="step"><div class="n">2</div><h3>A gente te chama</h3><p>Em até 24h a M2 Services entra em contato para pegar o nome do negócio, serviços, cidade, logo e fotos.</p></div>
+      <div class="step"><div class="n">2</div><h3>A gente te chama</h3><p>Mande o nome do negócio no WhatsApp, ou espere: em até 24h a M2 Services entra em contato para pegar serviços, cidade, logo e fotos.</p></div>
       <div class="step"><div class="n">3</div><h3>No ar em 48h</h3><p>Com os seus dados em mãos, o site fica pronto em 48h. Você ajusta até 4 vezes e aprova antes de publicar.</p></div>
     </div>
+    <div class="btns steps-wa"><a class="btn wa" href="https://wa.me/18137504016?text=Oi%21%20Acabei%20de%20pagar%20o%20ProntoSite.%20Seguem%20meus%20dados%3A%0ANome%20do%20neg%C3%B3cio%3A%0ACidade%3A%0AServi%C3%A7os%3A%0AMeu%20e-mail%20do%20pagamento%3A" target="_blank" rel="noopener">Já pagou? Mande seus dados no WhatsApp</a></div>
   </div>
 </section>
 
@@ -244,7 +253,7 @@ body.ended .cd b{color:var(--soft)}
     <h2 class="live">Garanta antes que o contador zere</h2>
     <h2 class="ended-box">A promoção de lançamento terminou</h2>
     <p class="sub live">Depois de 30 de novembro às 23:59, o preço de lançamento acaba.</p>
-    <p class="sub ended-box">Obrigado a todos que aproveitaram. Para um site agora, fale com a M2 Services pelo (813) 750-4016.</p>
+    <p class="sub ended-box">Obrigado a todos que aproveitaram. Para um site agora, fale com a M2 Services no WhatsApp.</p>
     <div class="cd" aria-hidden="true">
       <div><b data-d>--</b><small>dias</small></div>
       <div><b data-h>--</b><small>horas</small></div>
@@ -253,7 +262,9 @@ body.ended .cd b{color:var(--soft)}
     </div>
     <div class="btns live" style="margin-top:24px">
       <a class="btn pri" href="https://buy.stripe.com/bJe14hdlh5TM4JG0TX6sw00" target="_blank" rel="noopener">Garantir meu site por $297</a>
+      <a class="btn wa" href="https://wa.me/18137504016?text=Oi%21%20Vi%20a%20promo%C3%A7%C3%A3o%20do%20ProntoSite%20de%20%24297%20e%20tenho%20uma%20d%C3%BAvida." target="_blank" rel="noopener">Tirar dúvida no WhatsApp</a>
     </div>
+    <div class="btns ended-box" style="margin-top:24px"><a class="btn wa" href="https://wa.me/18137504016?text=Oi%21%20Vi%20a%20p%C3%A1gina%20do%20ProntoSite%20e%20quero%20um%20site%20para%20o%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">Falar no WhatsApp</a></div>
   </div>
 </section>
 
